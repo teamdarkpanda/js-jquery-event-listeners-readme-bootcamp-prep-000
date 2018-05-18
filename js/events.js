@@ -12,8 +12,10 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form').submit(function(event) {
-    
+  $('form').submit(function() {
+    if($('input').val() === 'G') {
+      alert("You pressed the 'G' key!");
+    }
   });
 }
 
