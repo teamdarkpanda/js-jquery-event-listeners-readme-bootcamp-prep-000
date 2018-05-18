@@ -12,7 +12,9 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form').submit()
+  $('form').submit(function(event) {
+    
+  });
 }
 
 $(document).ready(function(){
