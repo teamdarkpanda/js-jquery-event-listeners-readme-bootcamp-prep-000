@@ -11,6 +11,10 @@ function frameIt() {
   });
 }
 
+function pressIt() {
+  $('form').on()
+}
+
 $(document).ready(function(){
 
 // call functions here
