@@ -15,6 +15,7 @@ function pressIt() {
   $('form').submit(function() {
     if($('input').val() === 'G') {
       alert("You pressed the 'G' key!");
+      return;
     }
   });
 }
